@@ -9,6 +9,7 @@ uses
 
 type
   TMainForm = class(TForm)
+    TreeView1: TTreeView;
     ToolBar1: TToolBar;
     StatusBar1: TStatusBar;
     Panel1: TPanel;
@@ -18,9 +19,7 @@ type
     File1: TMenuItem;
     Exit1: TMenuItem;
   private
-    { Private declarations }
   public
-    { Public declarations }
   end;
 
 implementation

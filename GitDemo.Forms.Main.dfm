@@ -44,6 +44,19 @@ object MainForm: TMainForm
     Align = alLeft
     BevelOuter = bvNone
     TabOrder = 2
+    object TreeView1: TTreeView
+      Left = 0
+      Top = 0
+      Width = 185
+      Height = 386
+      Align = alClient
+      Indent = 19
+      TabOrder = 0
+      ExplicitLeft = 32
+      ExplicitTop = 144
+      ExplicitWidth = 121
+      ExplicitHeight = 97
+    end
   end
   object Panel2: TPanel
     Left = 188
