@@ -6,6 +6,7 @@ uses
 
 {$R *.res}
 
+
 var
   MainForm: TMainForm;
 
