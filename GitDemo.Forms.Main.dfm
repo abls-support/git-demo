@@ -1,7 +1,7 @@
-object Form1: TForm1
+object MainForm: TMainForm
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'Progetto demo per Git'
   ClientHeight = 299
   ClientWidth = 635
   Color = clBtnFace

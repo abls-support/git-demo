@@ -2,7 +2,7 @@ program GitDemo;
 
 uses
   Vcl.Forms,
-  GitDemo.Forms.Main in 'GitDemo.Forms.Main.pas' {Form1};
+  GitDemo.Forms.Main in 'GitDemo.Forms.Main.pas' {MainForm};
 
 {$R *.res}
 
@@ -10,6 +10,6 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TMainForm, MainForm);
   Application.Run;
 end.
