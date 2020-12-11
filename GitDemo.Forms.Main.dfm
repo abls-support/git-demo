@@ -10,6 +10,7 @@ object MainForm: TMainForm
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  Menu = MainMenu1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
@@ -27,9 +28,6 @@ object MainForm: TMainForm
     Height = 29
     Caption = 'ToolBar1'
     TabOrder = 0
-    ExplicitLeft = 168
-    ExplicitTop = 136
-    ExplicitWidth = 150
   end
   object StatusBar1: TStatusBar
     Left = 0
@@ -37,8 +35,6 @@ object MainForm: TMainForm
     Width = 758
     Height = 22
     Panels = <>
-    ExplicitTop = 0
-    ExplicitWidth = 8
   end
   object Panel1: TPanel
     Left = 0
@@ -48,9 +44,6 @@ object MainForm: TMainForm
     Align = alLeft
     BevelOuter = bvNone
     TabOrder = 2
-    ExplicitLeft = 152
-    ExplicitTop = 128
-    ExplicitHeight = 41
   end
   object Panel2: TPanel
     Left = 188
@@ -60,9 +53,15 @@ object MainForm: TMainForm
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 3
-    ExplicitLeft = 152
-    ExplicitTop = 128
-    ExplicitWidth = 185
-    ExplicitHeight = 41
+  end
+  object MainMenu1: TMainMenu
+    Left = 56
+    Top = 64
+    object File1: TMenuItem
+      Caption = '&File'
+      object Exit1: TMenuItem
+        Caption = '&Exit'
+      end
+    end
   end
 end
