@@ -18,8 +18,6 @@ type
     MainMenu1: TMainMenu;
     File1: TMenuItem;
     Exit1: TMenuItem;
-  private
-  public
   end;
 
 implementation
