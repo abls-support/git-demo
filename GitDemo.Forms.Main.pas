@@ -23,9 +23,6 @@ type
     { Public declarations }
   end;
 
-var
-  MainForm: TMainForm;
-
 implementation
 
 {$R *.dfm}

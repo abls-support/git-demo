@@ -6,6 +6,8 @@ uses
 
 {$R *.res}
 
+var
+  MainForm: TMainForm;
 
 begin
   Application.Initialize;
